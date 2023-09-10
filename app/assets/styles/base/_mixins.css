@@ -16,10 +16,10 @@
   }
 }
 
-.clearfix {
+@define-mixin clearfix {
   &::after {
     content: "";
     clear: both;
-    display: block;
+    display: table;
   }
 }
