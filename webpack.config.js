@@ -9,6 +9,7 @@ const postCSSPlugins = [
   require("autoprefixer"),
 ];
 
+
 module.exports = {
   entry: "../platinum-travel-site/app/assets/scripts/App.js",
   output: {
